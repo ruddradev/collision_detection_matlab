@@ -1,0 +1,637 @@
+#VRML V2.0 utf8
+
+DEF BOT Transform {
+  translation -52 -0.3 10.5
+  children [
+    Box {
+      size 1.07 1.07 0.3
+    }
+    Appearance {
+      material Material {
+        specularColor 1 0 0
+        shininess 0.5
+        emissiveColor 0.3 0.3 0.5
+        diffuseColor 0.8 1 0.8
+        ambientIntensity 0.5
+      }
+    }
+  ]
+}
+DEF floor Transform {
+  children Box {
+    size 100 100 0.5
+  }
+}
+DEF wall1 Transform {
+  translation 0 49.75 10
+  children Box {
+    size 100 0.5 20
+  }
+}
+DEF wall2 Transform {
+  translation 49.75 0 10
+  children Box {
+    size 0.5 100 20
+  }
+}
+DEF wall3 Transform {
+  translation 0 -49.75 10
+  children Box {
+    size 100 0.5 20
+  }
+}
+DEF wall4_1 Transform {
+  translation -49.75 0 5
+  children Box {
+    size 0.5 99 10
+  }
+}
+DEF wall4_2 Transform {
+  translation -49.75 25 10.5
+  children DEF wall4_part2 Box {
+    size 0.5 49 2
+  }
+}
+DEF wall4_3 Transform {
+  translation -49.75 -26 10.5
+  children DEF wall4_part3 Box {
+    size 0.5 49 2
+  }
+}
+DEF wall4_4 Transform {
+  translation -49.75 0 15.5
+  children DEF wall4_part4 Box {
+    size 0.5 99 8
+  }
+}
+DEF puzle1_1_1 Transform {
+  translation -40 -22 5
+  children Box {
+    size 0.5 55 10
+  }
+}
+DEF puzle1_2 Transform {
+  translation -20 5 10
+  children Box {
+    size 40 0.5 20
+  }
+}
+DEF puzle1_3 Transform {
+  translation 0 -15 10
+  children Box {
+    size 0.5 40 20
+  }
+}
+DEF puzle1_4 Transform {
+  translation -17 -35 10
+  children Box {
+    size 35 0.5 20
+  }
+}
+DEF puzle1_5_1 Transform {
+  translation -34 -20 5
+  children Box {
+    size 0.5 30 10
+  }
+}
+DEF puzle1_6 Transform {
+  translation -19 -5 10
+  children Box {
+    size 30 0.5 20
+  }
+}
+DEF puzle1_7_1 Transform {
+  translation -4 -20 5
+  children Box {
+    size 0.5 30 10
+  }
+}
+DEF puzle1_7_2 Transform {
+  translation -4 -28.5 11.5
+  children Box {
+    size 0.5 13.5 3
+  }
+}
+DEF puzle1_7_3 Transform {
+  translation -4 -11.5 11.5
+  children Box {
+    size 0.5 13.5 3
+  }
+}
+DEF puzle1_7_4 Transform {
+  translation -4 -20 16
+  children Box {
+    size 0.5 30 6
+  }
+}
+DEF puzle2_1 Transform {
+  translation -45 10 10
+  children Box {
+    size 10 0.5 20
+  }
+}
+DEF puzle2_2_1 Transform {
+  translation -40 27.5 5
+  children Box {
+    size 0.5 35 10
+  }
+}
+DEF puzzle2_3 Transform {
+  translation -20 44.75 10
+  children Box {
+    size 40 0.5 20
+  }
+}
+DEF puzle2_4 Transform {
+  translation 0 29 10
+  children Box {
+    size 0.5 32 20
+  }
+}
+DEF puzle2_5 Transform {
+  translation -17.5 13 10
+  children Box {
+    size 35 0.5 20
+  }
+}
+DEF puzle2_6_1 Transform {
+  translation -35 26.5 5
+  children Box {
+    size 0.5 27 10
+  }
+}
+DEF puzle2_7 Transform {
+  translation -19.5 40 10
+  children Box {
+    size 31 0.5 20
+  }
+}
+DEF puzle2_8_1 Transform {
+  translation -4 26.5 5
+  children Box {
+    size 0.5 27 10
+  }
+}
+DEF puzle2_8_2 Transform {
+  translation -4 34 11.5
+  children Box {
+    size 0.5 12 3
+  }
+}
+DEF puzle2_8_3 Transform {
+  translation -4 19 11.5
+  children Box {
+    size 0.5 12 3
+  }
+}
+DEF puzle2_8_4 Transform {
+  translation -4 26.5 16
+  children Box {
+    size 0.5 27 6
+  }
+}
+DEF center_wall_1 Transform {
+  translation 5 0 5
+  children Box {
+    size 0.5 100 10
+  }
+}
+DEF center_wall_2 Transform {
+  translation 5 26 11.5
+  children Box {
+    size 0.5 48 3
+  }
+}
+DEF center_wall_3 Transform {
+  translation 5 -26 11.5
+  children Box {
+    size 0.5 48 3
+  }
+}
+DEF center_wall_4 Transform {
+  translation 5 0 16
+  children Box {
+    size 0.5 100 7
+  }
+}
+DEF puzle3_1_1 Transform {
+  translation 10 3 5
+  children Box {
+    size 10 0.5 10
+  }
+}
+DEF puzle3_1_2 Transform {
+  translation 13.25 3 11.5
+  children Box {
+    size 3.5 0.5 3
+  }
+}
+DEF puzle3_1_3 Transform {
+  translation 7 3 11.5
+  children Box {
+    size 3.5 0.5 3
+  }
+}
+DEF puzle3_1_4 Transform {
+  translation 10 3 16.5
+  children Box {
+    size 10 0.5 7
+  }
+}
+DEF puzle3_2 Transform {
+  translation 14.75 24 10
+  children Box {
+    size 0.5 42 20
+  }
+}
+DEF puzle3_3_1 Transform {
+  translation 29 45 5
+  children Box {
+    size 28 0.5 10
+  }
+}
+DEF puzle3_3_2 Transform {
+  translation 21 45 11.5
+  children Box {
+    size 13 0.5 3
+  }
+}
+DEF puzle3_3_3 Transform {
+  translation 36.5 45 11.5
+  children Box {
+    size 13 0.5 3
+  }
+}
+DEF puzzle3_3_4 Transform {
+  translation 29 45 16.5
+  children Box {
+    size 28 0.5 7
+  }
+}
+DEF puzzle3_4_1 Transform {
+  translation 42.75 24 5
+  children Box {
+    size 0.5 42 10
+  }
+}
+DEF puzzle3_5 Transform {
+  translation 29 3 10
+  children Box {
+    size 28 0.5 20
+  }
+}
+DEF puzzle3_6_1 Transform {
+  translation 29 40 5
+  children Box {
+    size 28 0.5 10
+  }
+}
+DEF puzzle3_6_2 Transform {
+  translation 36.5 40 11.5
+  children Box {
+    size 12.5 0.5 3
+  }
+}
+DEF puzle3_6_3 Transform {
+  translation 21 40 11.5
+  children Box {
+    size 12.5 0.5 3
+  }
+}
+DEF puzle3_6_4 Transform {
+  translation 29 40 16.5
+  children Box {
+    size 28 0.5 7
+  }
+}
+DEF puzle4_1_1 Transform {
+  translation 10 -3 5
+  children Box {
+    size 10 0.5 10
+  }
+}
+DEF puzzle4_1_2 Transform {
+  translation 13.25 -3 11.5
+  children Box {
+    size 3.5 0.5 3
+  }
+}
+DEF puzzle4_1_3 Transform {
+  translation 6.5 -3 11.5
+  children Box {
+    size 3.5 0.5 3
+  }
+}
+DEF puzzle4_1_4 Transform {
+  translation 10 -3 16.5
+  children Box {
+    size 10 0.5 7
+  }
+}
+DEF puzzle4_2 Transform {
+  translation 29 -3 10
+  children Box {
+    size 28 0.5 20
+  }
+}
+DEF puzzle4_3_1 Transform {
+  translation 42.75 -24 5
+  children Box {
+    size 0.5 42 10
+  }
+}
+DEF puzzle4_4_1 Transform {
+  translation 29 -44.75 5
+  children Box {
+    size 28 0.5 10
+  }
+}
+DEF puzzle4_4_2 Transform {
+  translation 15 -27.5 10
+  children Box {
+    size 0.5 35 20
+  }
+}
+DEF puzzle4_4_3 Transform {
+  translation 29 -10 10
+  children Box {
+    size 28 0.5 20
+  }
+}
+DEF puzzle4_4_4 Transform {
+  translation 36.5 -44.75 11.5
+  children Box {
+    size 12.5 0.5 3
+  }
+}
+DEF puzzle4_5 Transform {
+  translation 21 -44.75 11.5
+  children Box {
+    size 12.5 0.5 3
+  }
+}
+DEF puzzle4_6 Transform {
+  translation 29 -44.75 16.5
+  children Box {
+    size 28 0.5 7
+  }
+}
+DEF puzzle3_obs1 Transform {
+  translation 10 20 11
+  children DEF obstacle1 Box {
+  }
+}
+DEF puzzle3_obs2 Transform {
+  translation 12 16 11
+  children DEF obstacle2 Box {
+  }
+}
+DEF puzle3_obs3 Transform {
+  translation 8 26 11
+  children Box {
+    size 2 2 8
+  }
+}
+DEF puzle3_obs4 Transform {
+  translation 12 30 11
+  children Box {
+    size 2 2 8
+  }
+}
+DEF puzle3_obs5 Transform {
+  translation 7 36 14
+  children Box {
+    size 4 2 8
+  }
+}
+DEF puzle4_obs1 Transform {
+  translation 12 -20 11
+  children Box {
+  }
+}
+DEF puzle4_obs2 Transform {
+  translation 8 -26 11
+  children Box {
+    size 4 2 8
+  }
+}
+DEF puzle4_obs3 Transform {
+  translation 12 -32 11
+  children Box {
+    size 4 2 8
+  }
+}
+DEF puzle4_obs4 Transform {
+  translation 8 -38 13
+  children Box {
+    size 4 2 8
+  }
+}
+DEF puzle1_obs1 Transform {
+  translation -12 -4 11
+  children Box {
+  }
+}
+DEF puzzle1_obs1 Transform {
+  translation -16 2 11
+  children Box {
+    size 2 4 8
+  }
+}
+DEF puzle1_obs3 Transform {
+  translation -22 -3 11
+  children Box {
+    size 2 4 8
+  }
+}
+DEF puzzle1_obs4 Transform {
+  translation -28 3 11
+  children Box {
+    size 2 4 8
+  }
+}
+DEF puzzle1_0bs5 Transform {
+  translation -12 -40 11
+  children Box {
+    size 2 6 6
+  }
+}
+DEF puzle1_obs6 Transform {
+  translation -16 -47 11
+  children Box {
+    size 2 6 8
+  }
+}
+DEF puzle1_obs7 Transform {
+  translation -22 -40 11
+  children Box {
+    size 2 8 10
+  }
+}
+DEF puzle1_obs8 Transform {
+  translation -28 -46 11
+  children Box {
+    size 2 8 8
+  }
+}
+DEF puzle1_obs9 Transform {
+  translation -14 -20 14
+  children Box {
+    size 6 6 6
+  }
+}
+DEF puzzle2_obs1 Transform {
+  translation -20 30 16
+  children Box {
+    size 4 4 4
+  }
+}
+DEF puzzle3_obs6 Transform {
+  translation 28 35 14
+  children Box {
+    size 4 4 4
+  }
+}
+DEF puzzle3_obs7 Transform {
+  translation 30 28 11
+  children Box {
+    size 6 6 6
+  }
+}
+DEF puzzle3_obs8 Transform {
+  translation 30 18 11
+  children Box {
+    size 8 8 8
+  }
+}
+DEF puzzle4_obs5 Transform {
+  translation 28 -35 14
+  children Box {
+    size 4 4 4
+  }
+}
+DEF puzzle4_obs6 Transform {
+  translation 30 -28 11
+  children Box {
+    size 6 6 6
+  }
+}
+DEF puzle4_obs7 Transform {
+  translation 30 -18 11
+  children Box {
+    size 8 8 8
+  }
+}
+DEF puzzle3_4_2 Transform {
+  translation 42.75 31.5 11.5
+  children Box {
+    size 0.5 17 3
+  }
+}
+DEF puzzle3_4_3 Transform {
+  translation 42.75 11.75 11.5
+  children Box {
+    size 0.5 17 3
+  }
+}
+DEF puzzle3_4_4 Transform {
+  translation 42.75 24 16.5
+  children Box {
+    size 0.5 42 7
+  }
+}
+DEF puzzle4_3_2 Transform {
+  translation 42.75 -18 11.5
+  children Box {
+    size 0.5 15.5 3
+  }
+}
+DEF puzzle4_3_3 Transform {
+  translation 42.75 -37 11.5
+  children Box {
+    size 0.5 15.5 3
+  }
+}
+DEF puzzle4_3_4 Transform {
+  translation 42.75 -24 16.5
+  children Box {
+    size 0.5 42 7
+  }
+}
+DEF puzzle1_1_2 Transform {
+  translation -40 -37 11.5
+  children Box {
+    size 0.5 26 3
+  }
+}
+DEF puzle1_1_3 Transform {
+  translation -40 -7.5 11.5
+  children Box {
+    size 0.5 26 3
+  }
+}
+DEF puzzle1_1_4 Transform {
+  translation -40 -22 16.5
+  children Box {
+    size 0.5 55 7
+  }
+}
+DEF puzzle1_5_2 Transform {
+  translation -34 -28 11.5
+  children Box {
+    size 0.5 13.5 3
+  }
+}
+DEF puzzle1_5_3 Transform {
+  translation -34 -11.75 11.5
+  children Box {
+    size 0.5 13.5 3
+  }
+}
+DEF puzzle1_5_4 Transform {
+  translation -34 -20 16.5
+  children Box {
+    size 0.5 30 7
+  }
+}
+DEF puzzle2_2_2 Transform {
+  translation -40 37 11.5
+  children Box {
+    size 0.5 16 3
+  }
+}
+DEF puzle2_2_3 Transform {
+  translation -40 18 11.5
+  children Box {
+    size 0.5 16 3
+  }
+}
+DEF puzle2_2_4 Transform {
+  translation -40 27.5 16.5
+  children Box {
+    size 0.5 35 7
+  }
+}
+DEF puzzle2_6_2 Transform {
+  translation -35 34 11.5
+  children Box {
+    size 0.5 12 3
+  }
+}
+DEF puzzle2_6_3 Transform {
+  translation -35 19 11.5
+  children Box {
+    size 0.5 12 3
+  }
+}
+DEF puzzle2_6_4 Transform {
+  translation -35 26.5 16.5
+  children Box {
+    size 0.5 27 7
+  }
+}
+DEF areanOverview Viewpoint {
+  description "areanOverview"
+  position -83.0961 2.76923 129.853
+  orientation 0.358674 -0.195543 -0.912752 1.64021
+}
